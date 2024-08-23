@@ -2,13 +2,6 @@
     "reserve": [
         {"username": "xxxxxxxx",
         "password": "xxxxxxxx",
-        "time": ["14:00","18:00"],
-        "roomid":"6559",
-        "seatid":["007"],
-        "daysofweek": ["Monday" , "Tuesday", "Wednesday", "Thursday", "Friday","Sunday" ]
-    },
-        {"username": "xxxxxxxx",
-        "password": "xxxxxxxx",
         "time": ["18:00","21:00"],
         "roomid":"6559",
         "seatid":["007"],
