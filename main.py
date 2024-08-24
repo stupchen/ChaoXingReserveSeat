@@ -106,7 +106,7 @@ def get_roomid(args1, args2):
 
 if __name__ == "__main__":
     currentTime = time.strftime("%H:%M:%S", time.localtime(time.time()))
-    while (currentTime != "6:52:10"):
+    while (currentTime != "7:10:10"):
       currentTime = time.strftime("%H:%M:%S", time.localtime(time.time()))
     config_path = os.path.join(os.path.dirname(__file__), 'config.json')
     parser = argparse.ArgumentParser(prog='Chao Xing seat auto reserve')
