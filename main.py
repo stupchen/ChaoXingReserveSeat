@@ -17,7 +17,7 @@ ENDTIME = "18:31:00" # 根据学校的预约座位时间+1min即可
 
 ENABLE_SLIDER = True # 是否有滑块验证
 MAX_ATTEMPT = 5 # 最大尝试次数
-RESERVE_NEXT_DAY = True # 预约明天而不是今天的
+RESERVE_NEXT_DAY = False  # 预约明天而不是今天的
 
                 
 
@@ -106,7 +106,7 @@ def get_roomid(args1, args2):
 
 if __name__ == "__main__":
     currentTime = time.strftime("%H:%M:%S", time.localtime(time.time()))
-    while (currentTime != "10:30:00"):
+    while (currentTime != "05:15:00"):
       currentTime = time.strftime("%H:%M:%S", time.localtime(time.time()))
       print(currentTime)
     config_path = os.path.join(os.path.dirname(__file__), 'config.json')
